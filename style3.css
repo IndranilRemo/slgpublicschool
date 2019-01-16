@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+}
+#theCarousel{
+	height:100%;
+	position:top;
+}
+.slide1{
+	background-image:url(images/clg3c.jpg);
+	height:400px;
+	background-repeat:no-repeat;
+	background-position:center;	
+}
+.slide2{
+	background-image:url(images/clg3c.jpg);
+	height:400px;
+	background-repeat:no-repeat;
+	background-position:center;	
+	
+}
+.slide3{
+	background-image:url(images/clg1c.jpg);
+	height:400px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.slide4{
+	background-image:url(images/clg5c.jpg);
+	height:400px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+<!--cap{>
+	/*background:url(backgd.jpg);*/
+	
+	
+}
+.well{
+	height:40%;
+	width:75%;
+	float:right;
+}
+.cap h1{
+	text-decoration:underline;
+	font-family:Cooper Black;
+	color:black;
+}
+#cap p{
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+}
+@media(max-width: 1000px)
+{
+	body{
+		font-size: 1.5em;
+	}
+	.well{
+		width:100%;
+		min-height: 50%;
+	}
+	.row{
+		width:100%;
+		float: left;
+	}
+}
